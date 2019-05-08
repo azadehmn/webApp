@@ -1,0 +1,210 @@
+.login-box{
+  max-width: 395px!important;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 0 5px 10px 0 #c8ccd5;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(31,32,35,.07);
+  box-shadow: 0 5px 15px 0 rgba(31,32,35,.07);
+  margin-right: auto;
+  margin-left: auto;
+}
+.pointer{
+  cursor: pointer;
+}
+.zarin-logo {
+  background: url("../image/loginlogo.png") no-repeat;
+  width: 130px;
+  background-size: 100% 100%;
+  height: 35px;
+  margin: 108px auto 49px auto;
+}
+.init-page{
+  input{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: iransans;
+    font-size: 14px;
+    width: 100%;
+    height: 48px;
+    margin-top: -22px;
+    margin-bottom: 22px;
+    outline: none;
+  }
+  .btn-gold{
+    border-radius: 100px;
+    color: #555 !important;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-right: 17px;
+    padding-left: 17px;
+    background: #f90!important;
+    position: relative;
+    float: left;
+    font-weight: 500;
+    font-size: 14px;
+    top: -1px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    outline: none;
+    border-color: transparent;
+    font-family: iransans;
+  }
+  .progress-button button {
+    font-family: IRANSansMedium !important;
+    border-radius: 100px;
+    color: #555555 !important;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding-right: 17px;
+    padding-left: 17px;
+    background: #FFE53B !important;
+    -webkit-box-shadow: 0 6px 20px 0 rgba(255, 237, 0, 0.39) !important;
+    box-shadow: 0 6px 20px 0 rgba(255, 237, 0, 0.39) !important;
+    position: relative;
+    left: 24px;
+    top: -1px;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    svg{
+      left: 3.7em !important;
+      stroke: #FFE53B !important;;
+      stroke-width: 10;
+      .checkmark {
+        path {
+          stroke: #555555 !important;;
+          stroke-linecap: round;
+          stroke-width: 4;
+          -webkit-transition: opacity 0.1s;
+          transition: opacity 0.1s;
+        }
+      }
+      .cross {
+        path {
+          stroke: #555555 !important;;
+          stroke-linecap: round;
+          stroke-width: 4;
+          -webkit-transition: opacity 0.1s;
+          transition: opacity 0.1s;}
+      }
+    }
+    .progress-circle{
+      path {
+        stroke: #FFE53B !important;;
+        stroke-width: 10;
+      }
+    }
+  }
+  .loading.progress-button button{
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+    background-color: #fff !important;
+  }
+}
+
+
+
+.box {
+  padding: 30px;
+  .register {
+    color: #f90;
+    font-weight: 500;
+  }
+  .input-username{
+    color: #80868A !important;
+  }
+  .login-account {
+    margin-top: -10px;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+  }
+  .register-btn {
+    position: relative;
+    left: -15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 2px;
+    font-weight: 500;
+  }
+  .line-seprator {
+    width: 399px;
+    /* float: left; */
+    margin-right: 3px;
+    background: #EAECEF;
+    height: 1px;
+    border: 0;
+    margin-top: -18px;
+
+  }
+  .title-init {
+    position: relative;
+    top: -13px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: normal;
+  }
+  .form {
+    margin-top: -30px;
+    margin-right: -4px;
+  }
+  .login-btn{
+    position: relative;
+    left: 28px;
+    height: 32px;
+    width: max-content;
+    border-radius: 21px;
+    background-color: #FFE53B;
+    box-shadow: 0 -24px 7px 0 rgba(255,255,255,0.4), 0 6px 20px 0 rgba(255,237,0,0.39);
+  }
+}
+
+
+@media (max-width: 767px){
+  .box{
+    .login-btn {
+      position: relative;
+      left: 12px;
+      margin-top: 20px;
+      margin-right: 11px;
+    }
+  }
+}
+@media (max-width: 575px){
+  .btn-gold{
+    float: right !important;
+    margin-top: 20px;
+    margin-right: -22px;
+  }
+  .login-button{
+    margin-right: 18px;
+    margin-bottom: 55px;
+  }
+}
+@media (min-width: 575px)and (max-width: 767px){
+  .btn-gold{
+    left: 20px !important;
+    top: -38px !important;
+  }
+  .login-button{
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 767px)and (max-width: 992px){
+  .btn-gold {
+    left: 0 !important;
+    top: -38px !important;
+  }
+}
+@media (min-width: 992px) {
+  .btn-gold {
+    left: 0 !important;
+    top: -38px !important;
+  }
+}

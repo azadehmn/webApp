@@ -1,0 +1,125 @@
+body{
+  font-family: IRANSans !important;
+  background: #eaecef;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+$from: 1;
+$to: 100;
+$minFontSize: 10;
+$maxFontSize: 28;
+
+/**------------------
+      Font size
+-------------------- */
+@for $i from $minFontSize through $maxFontSize {
+  .f-s-#{$i} {
+    font-size: 0px + $i !important;
+  }
+}
+
+/**------------------
+Padding
+-------------------- */
+@for $i from $from through $to {
+  .p-#{$i} {
+    padding: 0px + $i !important;
+  }
+}
+
+/**------------------
+Padding-left
+-------------------- */
+@for $i from $from through $to {
+  .p-l-#{$i} {
+    padding-left: 0px + $i !important;
+  }
+}
+
+/**------------------
+Padding-right
+-------------------- */
+@for $i from $from through $to {
+  .p-r-#{$i} {
+    padding-right: 0px + $i !important;
+  }
+}
+
+/**------------------
+Padding-top
+-------------------- */
+@for $i from $from through $to {
+  .p-t-#{$i} {
+    padding-top: 0px + $i !important;
+  }
+}
+
+/**------------------
+ Padding-bottom
+ -------------------- */
+
+@for $i from $from through $to {
+  .p-b-#{$i} {
+    padding-bottom: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin
+-------------------- */
+
+@for $i from $from through $to {
+  .m-#{$i} {
+    margin: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-left
+-------------------- */
+
+@for $i from $from through $to {
+  .m-l-#{$i} {
+    margin-left: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-right
+-------------------- */
+@for $i from $from through $to {
+  .m-r-#{$i} {
+    margin-right: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-top
+-------------------- */
+@for $i from $from through $to {
+  .m-t-#{$i} {
+    margin-top: 0px + $i !important;
+  }
+}
+
+/**------------------
+margin-bottom
+-------------------- */
+@for $i from $from through $to {
+  .m-b-#{$i} {
+    margin-bottom: 0px + $i !important;
+  }
+}
+
+.err{
+  color: red;
+  position: relative;
+  top: -11px;
+  font-size: 12px;
+  right: 4px;
+}
